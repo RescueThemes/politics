@@ -1,0 +1,4 @@
+== Politics Changelog ==
+
+= 1.0 - Sept 10, 2015 =
+* Initial release
