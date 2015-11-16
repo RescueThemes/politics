@@ -44,6 +44,7 @@ You can find further documentation files at [docs.rescuethemes.com/](docs.rescue
 = 1.0.1 - Nov 16, 2015 =
 * Added unminified versions of Font Awesome & Slick Nav stylesheets for reference
 * Updating escaping in header.php and extras.php
+* Removed 'left-sidebar' tag
 
 = 1.0 - Sep 10, 2015 =
 * Initial release
