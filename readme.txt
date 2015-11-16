@@ -5,7 +5,7 @@ Tags: theme-options, red, blue, white, right-sidebar, responsive-layout,  access
 
 Requires at least: 4.1
 Tested up to: 4.3
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,10 @@ You can customize the theme with the native WordPress Customize feature allowing
 You can find further documentation files at [docs.rescuethemes.com/](docs.rescuethemes.com).
 
 == Changelog ==
+
+= 1.0.1 - Nov 16, 2015 =
+* Added unminified versions of Font Awesome & Slick Nav stylesheets for reference
+* Updating escaping in header.php and extras.php
 
 = 1.0 - Sep 10, 2015 =
 * Initial release

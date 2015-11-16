@@ -8,10 +8,10 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta charset="<?php echo esc_attr( get_bloginfo( 'charset' ) ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="pingback" href="<?php echo esc_attr( get_bloginfo( 'pingback_url' ) ); ?>">
 
 <?php wp_head(); ?>
 </head>
@@ -88,14 +88,14 @@
 			if ( $politics_logo ) { ?>
 
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php echo esc_url( $politics_logo ) ?>" alt="<?php bloginfo( 'name' ); ?>">
+				<img src="<?php echo esc_url( $politics_logo ) ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
 			</a>
 
 		<?php } else { ?>
 
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></a></h1>
 
-			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+			<p class="site-description"><?php echo esc_attr( get_bloginfo( 'description' ) ); ?></p>
 
 		<?php } ?>
 
