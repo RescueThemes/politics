@@ -22,6 +22,7 @@ function politics_customizer_library_options() {
 	$white = '#fff';
 	$primary_color_drkblue = '#465a63';
 
+	$site_link = "https://rescuethemes.com";
 	$upgrade_link = "https://rescuethemes.com/wordpress-themes/politics-plus/";
 	$upgrade_text = __( 'Upgrade to Politics Plus', 'politics');
 
@@ -381,7 +382,7 @@ function politics_customizer_library_options() {
 		'label'   		=> __( 'Copyright Text', 'politics' ),
 		'section' 		=> $section,
 		'type'    		=> 'textarea',
-		'default' 		=> sprintf( __( 'Copyright 2015 %1s Rescue Themes %2s. All Rights Reserved. Paid for by the campaign.', 'politics' ), '<a href="https://rescuethemes.com">', '</a>' ),
+		'default' 		=> sprintf( __( 'Copyright 2015 <a href="%1s">Rescue Themes</a>. All Rights Reserved. Paid for by the campaign.', 'politics' ), esc_url( $site_link ) ),
 		'transport'		=> 'postMessage'
 	);
 
