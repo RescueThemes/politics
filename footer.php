@@ -78,7 +78,10 @@
 						echo wp_kses( $footer_copyright,
 							array(
 								'strong' => array(),
-								'a' => array('href')
+						    'a' => array(
+						      'href' => array(),
+						      'title' => array()
+						    ),
 								)
 							);
 
