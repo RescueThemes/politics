@@ -18,8 +18,8 @@
 							<?php the_post_thumbnail('home-posts'); ?>
 						</a>
 				<?php	} ?>
-		    <span class="date"><?php echo esc_html( get_the_date() ); ?></span>
-		  </div>
+		    <a class="date" href='<?php echo esc_url( get_permalink() ); ?>'><?php echo esc_html( get_the_date() ); ?></a>
+		  </div><!-- .image -->
 
 			<h4 class="title <?php if ( has_post_thumbnail() ) { echo "has-image"; } ?>">
 		    <a href='<?php echo esc_url( get_permalink() ); ?>'><?php the_title(); ?></a>

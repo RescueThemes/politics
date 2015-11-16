@@ -48,7 +48,11 @@ You can find further documentation files at [docs.rescuethemes.com/](docs.rescue
 * Updated default gallery display
 * Updated comments style
 * Fixed footer copyright setting
+<<<<<<< HEAD
 * Added support for Give Donation plugin
+=======
+* Added link to home page post dates
+>>>>>>> master
 
 = 1.0 - Sep 10, 2015 =
 * Initial release
