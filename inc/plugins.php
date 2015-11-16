@@ -62,6 +62,12 @@ function politics_register_required_plugins() {
 		),
 
 		array(
+			'name'      => 'Give',
+			'slug'      => 'give',
+			'required'  => false,
+		),
+
+		array(
 			'name'      => 'Widget Importer & Exporter',
 			'slug'      => 'widget-importer-exporter',
 			'required'  => false,
