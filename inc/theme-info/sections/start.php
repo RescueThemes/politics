@@ -58,6 +58,11 @@ $url 	.= '&politics-customizer=true';
 						'slug' => 'mailbag',
 						'dir'	 => 'mailbag'
 					),
+					array(
+						'name' => 'Give',
+						'slug' => 'give',
+						'dir'	 => 'give'
+					),
 				);
 
 				/**
