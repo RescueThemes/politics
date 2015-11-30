@@ -5,7 +5,7 @@ Tags: theme-options, red, blue, white, right-sidebar, responsive-layout, custom-
 
 Requires at least: 4.1
 Tested up to: 4.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,7 @@ You can customize the theme with the native WordPress Customize feature allowing
 2. Navigate to "Settings > Reading" and assign Front page as "Home" and Posts page as "Blog".
 
 == Home Hero Section ==
+
 1. After assigning the home page template as described above, set the top hero image from "Appearance > Customize > Home"
 2. Add overlaying content by placing a widget in the "Home Hero" widget area from "Appearance > Widgets".
 3. To add an email sign-up form, activate the [Mailbag](https://wordpress.org/plugins/mailbag/) plugin and paste its shortcode into a text widget.
