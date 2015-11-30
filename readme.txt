@@ -1,7 +1,7 @@
 === Politics ===
 
 Contributors: rescuethemes
-Tags: theme-options, red, blue, white, right-sidebar, responsive-layout,  accessibility-ready, custom-colors, custom-menu, featured-images, full-width-template,  sticky-post, threaded-comments, translation-ready
+Tags: theme-options, red, blue, white, right-sidebar, responsive-layout, custom-colors, custom-menu, featured-images, full-width-template,  sticky-post, threaded-comments, translation-ready
 
 Requires at least: 4.1
 Tested up to: 4.3
@@ -40,6 +40,9 @@ You can customize the theme with the native WordPress Customize feature allowing
 You can find further documentation files at [docs.rescuethemes.com/](docs.rescuethemes.com).
 
 == Changelog ==
+
+= 1.0.2 - Nov 30, 2015 =
+* Removed accesiblity-ready tag
 
 = 1.0.1 - Nov 16, 2015 =
 * Added unminified versions of Font Awesome & Slick Nav stylesheets for reference
