@@ -1,7 +1,7 @@
 === Politics ===
 
 Contributors: rescuethemes
-Tags: theme-options, red, blue, white, right-sidebar, responsive-layout,  accessibility-ready, custom-colors, custom-menu, featured-images, full-width-template,  sticky-post, threaded-comments, translation-ready
+Tags: theme-options, red, blue, white, right-sidebar, responsive-layout, custom-colors, custom-menu, featured-images, full-width-template,  sticky-post, threaded-comments, translation-ready
 
 Requires at least: 4.1
 Tested up to: 4.3
@@ -28,6 +28,11 @@ You can customize the theme with the native WordPress Customize feature allowing
 1. To use the home page template, create a new page called "Home" and assign it the "Front Page" template under the Page Attributes settings.
 2. Navigate to "Settings > Reading" and assign Front page as "Home" and Posts page as "Blog".
 
+== Home Hero Section ==
+1. After assigning the home page template as described above, set the top hero image from "Appearance > Customize > Home"
+2. Add overlaying content by placing a widget in the "Home Hero" widget area from "Appearance > Widgets".
+3. To add an email sign-up form, activate the [Mailbag](https://wordpress.org/plugins/mailbag/) plugin and paste its shortcode into a text widget.
+
 == Blog Page ==
 
 1. Create a new page and publish it.
@@ -37,9 +42,13 @@ You can customize the theme with the native WordPress Customize feature allowing
 
 = Is there additional documentation for the theme? =
 
-You can find further documentation files at [docs.rescuethemes.com/](docs.rescuethemes.com).
+You can find further documentation files at [docs.rescuethemes.com](http://docs.rescuethemes.com/collection/232-politics).
 
 == Changelog ==
+
+= 1.0.2 - Nov 30, 2015 =
+* Removed accesiblity-ready tag
+* Added additional instructions to readme.txt
 
 = 1.0.1 - Nov 16, 2015 =
 * Added unminified versions of Font Awesome & Slick Nav stylesheets for reference
