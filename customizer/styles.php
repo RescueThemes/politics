@@ -38,7 +38,7 @@ function customizer_library_demo_build_styles() {
 
 		Customizer_Library_Styles()->add( array(
 			'selectors' => array(
-				'.home_hero.color-overlay:before'
+				'.color-overlay:before'
 			),
 			'declarations' => array(
 				'background-color' => $color
@@ -56,7 +56,7 @@ function customizer_library_demo_build_styles() {
 
 		Customizer_Library_Styles()->add( array(
 			'selectors' => array(
-				'.home_hero.color-overlay:before'
+				'.color-overlay:before'
 			),
 			'declarations' => array(
 				'opacity' => $numeral

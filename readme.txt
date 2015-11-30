@@ -50,6 +50,7 @@ You can find further documentation files at [docs.rescuethemes.com](http://docs.
 = 1.0.2 - Nov 30, 2015 =
 * Removed accesiblity-ready tag
 * Added additional instructions to readme.txt
+* Fixed home hero overlay color
 
 = 1.0.1 - Nov 16, 2015 =
 * Added unminified versions of Font Awesome & Slick Nav stylesheets for reference
