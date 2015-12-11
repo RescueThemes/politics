@@ -1,5 +1,8 @@
 == Politics Changelog ==
 
+= 1.0.3 - Dec 11, 2015 =
+* Consolidating upsell links
+
 = 1.0.2 - Nov 30, 2015 =
 * Removed accesiblity-ready tag
 * Added additional instructions to readme.txt
