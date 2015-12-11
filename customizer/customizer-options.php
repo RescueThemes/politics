@@ -540,7 +540,7 @@ function politics_customizer_library_options() {
 
 	$sections[] = array(
 		'id' 						=> $section,
-		'title' 				=> __( 'Home Controls', 'politics' ),
+		'title' 				=> __( 'Upgrade Available', 'politics' ),
 		'priority'	 		=> '50',
 		'description' 	=> ''
 	);
@@ -550,18 +550,7 @@ function politics_customizer_library_options() {
     'label' 		=> __( 'Home Sections', 'politics' ),
     'section' 	=> $section,
     'type' 			=> 'content',
-    'content' 	=> sprintf( __( '<p>Take control of your home page content sections with the abilitiy to re-order and toggle sections on/off.</p><img src="%s">', 'politics' ),  $imagepath .'home-controls.png' ),
-    'description' => sprintf( '<a class="upgrade-link" target="_blank" href="%1s">%2s &rarr;</a>', esc_url( $upgrade_link ), esc_attr( $upgrade_text ) )
-	);
-
-	// Plus: Typography
-	$section = 'plus-typography';
-
-	$sections[] = array(
-		'id' 					=> $section,
-		'title' 			=> __( 'Typography', 'politics' ),
-		'priority'	 	=> '55',
-		'description' => ''
+    'content' 	=> sprintf( __( '<p>Take control of your home page content sections with the abilitiy to re-order and toggle sections on/off.</p><img src="%s">', 'politics' ),  $imagepath .'home-controls.png' )
 	);
 
 	$options['typography-plus'] = array(
@@ -569,18 +558,7 @@ function politics_customizer_library_options() {
     'label' 			=> __( 'Advanced Typography Settings', 'politics' ),
     'section' 		=> $section,
     'type' 				=> 'content',
-    'content' 		=> __( '<p>You\'ll have access to 500+ Google Fonts along with font size, weight, style, transform, line height, and spacing settings for every part of your site!</p><ul><li>Headers and Content</li><li>Navigation</li><li>Sidebar</li><li>Footer</li><li>Copyright</li><li>and more!</li></ul>', 'politics' ),
-    'description' => sprintf( '<a class="upgrade-link" target="_blank" href="%1s">%2s &rarr;</a>', esc_url( $upgrade_link ), esc_attr( $upgrade_text ) )
-	);
-
-	// Plus: Colors
-	$section = 'plus-colors';
-
-	$sections[] = array(
-		'id' 						=> $section,
-		'title' 				=> __( 'Advanced Colors', 'politics' ),
-		'priority'	 		=> '60',
-		'description' 	=> ''
+    'content' 		=> __( '<p>You\'ll have access to 500+ Google Fonts along with font size, weight, style, transform, line height, and spacing settings for every part of your site!</p><ul><li>Headers and Content</li><li>Navigation</li><li>Sidebar</li><li>Footer</li><li>Copyright</li><li>and more!</li></ul>', 'politics' )
 	);
 
 	$options['colors-plus'] = array(
@@ -588,18 +566,7 @@ function politics_customizer_library_options() {
     'label' 			=> __( 'Advanced Color Settings', 'politics' ),
     'section' 		=> $section,
     'type' 				=> 'content',
-    'content' 		=> __( '<p>Fine tune your site design with an unlimited number of color options for each section of the site:</p><ul><li>Backgrounds</li><li>Navigation</li><li>Links and Fonts</li><li>Footer</li><li>and more!</li></ul>', 'politics' ),
-    'description' => sprintf( '<a class="upgrade-link" target="_blank" href="%1s">%2s &rarr;</a>', esc_url( $upgrade_link ), esc_attr( $upgrade_text ) )
-	);
-
-	// Plus: Sidebar
-	$section = 'plus-sidebar';
-
-	$sections[] = array(
-		'id' 						=> $section,
-		'title' 				=> __( 'Sidebar Layout', 'politics' ),
-		'priority'	 		=> '65',
-		'description' 	=> ''
+    'content' 		=> __( '<p>Fine tune your site design with an unlimited number of color options for each section of the site:</p><ul><li>Backgrounds</li><li>Navigation</li><li>Links and Fonts</li><li>Footer</li><li>and more!</li></ul>', 'politics' )
 	);
 
 	$options['plus-sidebar-notice'] = array(
@@ -607,18 +574,7 @@ function politics_customizer_library_options() {
     'label' 			=> __( 'Sidebar Layout', 'politics' ),
     'section' 		=> $section,
     'type' 				=> 'content',
-    'content' 		=> sprintf( __( '<p>Adjust the inner sidebar position to display on the right or left side of your content.</p>', 'politics' ) ),
-    'description' => sprintf( '<a class="upgrade-link" target="_blank" href="%1s">%2s &rarr;</a>', esc_url( $upgrade_link ), esc_attr( $upgrade_text ) )
-	);
-
-	// Plus: WooCommerce
-	$section = 'plus-woocommerce';
-
-	$sections[] = array(
-		'id' 						=> $section,
-		'title' 				=> __( 'eCommerce Shop', 'politics' ),
-		'priority'	 		=> '70',
-		'description' 	=> ''
+    'content' 		=> sprintf( __( '<p>Adjust the inner sidebar position to display on the right or left side of your content.</p>', 'politics' ) )
 	);
 
 	$options['plus-woocommerce-notice'] = array(

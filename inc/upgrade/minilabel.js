@@ -23,7 +23,7 @@
 			});
 
 		setTimeout(function () {
-			$('#accordion-section-plus-woocommerce h3, #accordion-section-plus-sidebar h3, #accordion-section-plus-typography h3, #accordion-section-plus-colors h3, #accordion-section-plus-home-control h3').append(upsellMini);
+			$('#accordion-section-plus-home-control h3').append(upsellMini);
 		}, 300);
 
 	}
