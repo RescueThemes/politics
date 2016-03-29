@@ -1,5 +1,10 @@
 == Politics Changelog ==
 
+= 1.0.4 - Mar 29, 2016 =
+* Added Mailchimp for WP plugin support
+* Removed support for Mailbag plugin
+* Adjusted styling for donation form
+
 = 1.0.3 - Dec 11, 2015 =
 * Consolidating upsell links
 
