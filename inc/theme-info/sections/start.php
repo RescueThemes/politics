@@ -54,9 +54,9 @@ $url 	.= '&politics-customizer=true';
 						'dir'	 => 'jetpack'
 					),
 					array(
-						'name' => 'Mailbag',
-						'slug' => 'mailbag',
-						'dir'	 => 'mailbag'
+						'name' => 'Mailchimp for WordPress',
+						'slug' => 'mailchimp-for-wp',
+						'dir'	 => 'mailchimp-for-wp'
 					),
 					array(
 						'name' => 'Give',

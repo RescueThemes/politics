@@ -836,6 +836,86 @@ header#masthead {
     height: 2em;
     padding: 0; }
 
+/** Mailchimp for WP **/
+.hero-widgets-wrap .mc4wp-form-fields input[type="email"], .inner-sidebar .mc4wp-form-fields input[type="email"] {
+  font-weight: normal;
+  color: #8A949B;
+  border: none;
+  background: #EFF1F5;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 0;
+  background-color: white;
+  height: 3.5em;
+  opacity: 0.8;
+  margin: 0;
+  width: 400px;
+  -webkit-appearance: none;
+  -webkit-transition: .07s ease-in;
+  -moz-transition: .07s ease-in;
+  transition: .07s ease-in; }
+  @media only screen and (max-width: 40em) {
+    .hero-widgets-wrap .mc4wp-form-fields input[type="email"], .inner-sidebar .mc4wp-form-fields input[type="email"] {
+      width: 100%; } }
+.hero-widgets-wrap .mc4wp-form-fields ::-webkit-input-placeholder, .inner-sidebar .mc4wp-form-fields ::-webkit-input-placeholder {
+  color: #5D6061; }
+  @media only screen and (max-width: 40em) {
+    .hero-widgets-wrap .mc4wp-form-fields ::-webkit-input-placeholder, .inner-sidebar .mc4wp-form-fields ::-webkit-input-placeholder {
+      text-align: center; } }
+.hero-widgets-wrap .mc4wp-form-fields :-moz-placeholder, .inner-sidebar .mc4wp-form-fields :-moz-placeholder {
+  /* Firefox 18- */
+  color: #5D6061; }
+  @media only screen and (max-width: 40em) {
+    .hero-widgets-wrap .mc4wp-form-fields :-moz-placeholder, .inner-sidebar .mc4wp-form-fields :-moz-placeholder {
+      text-align: center; } }
+.hero-widgets-wrap .mc4wp-form-fields ::-moz-placeholder, .inner-sidebar .mc4wp-form-fields ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #5D6061; }
+  @media only screen and (max-width: 40em) {
+    .hero-widgets-wrap .mc4wp-form-fields ::-moz-placeholder, .inner-sidebar .mc4wp-form-fields ::-moz-placeholder {
+      text-align: center; } }
+.hero-widgets-wrap .mc4wp-form-fields :-ms-input-placeholder, .inner-sidebar .mc4wp-form-fields :-ms-input-placeholder {
+  color: #5D6061; }
+  @media only screen and (max-width: 40em) {
+    .hero-widgets-wrap .mc4wp-form-fields :-ms-input-placeholder, .inner-sidebar .mc4wp-form-fields :-ms-input-placeholder {
+      text-align: center; } }
+.hero-widgets-wrap .mc4wp-form-fields input[type="submit"], .inner-sidebar .mc4wp-form-fields input[type="submit"] {
+  display: inline-block;
+  height: 3.05em;
+  border-radius: 0;
+  background-color: #2196f3;
+  opacity: 0.9;
+  width: 150px;
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+  box-shadow: 0 1px 4px 0 rgba(69, 90, 100, 0.16);
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease; }
+  @media only screen and (max-width: 40em) {
+    .hero-widgets-wrap .mc4wp-form-fields input[type="submit"], .inner-sidebar .mc4wp-form-fields input[type="submit"] {
+      margin-top: 1em;
+      width: 100%; } }
+  .hero-widgets-wrap .mc4wp-form-fields input[type="submit"]:hover, .inner-sidebar .mc4wp-form-fields input[type="submit"]:hover {
+    background-color: #37a1f4; }
+
+.inner-sidebar .mc4wp-form-fields input[type="email"], .inner-sidebar .mc4wp-form-fields input[type="submit"] {
+  text-align: center;
+  width: 100%; }
+.inner-sidebar .mc4wp-form-fields input[type="email"] {
+  background: #eff1f5; }
+.inner-sidebar .mc4wp-form-fields input[type="submit"] {
+  font-size: 12px;
+  font-weight: 100;
+  height: 2.5em;
+  letter-spacing: 0.05em;
+  margin-top: 1em;
+  padding: 0;
+  text-transform: uppercase; }
+
 /*--------------------------------------------------------------
 4.3 Blog Posts
 --------------------------------------------------------------*/

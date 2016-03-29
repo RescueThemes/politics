@@ -56,8 +56,8 @@ function politics_register_required_plugins() {
 		),
 
 		array(
-			'name'      => 'Mailbag',
-			'slug'      => 'mailbag',
+			'name'      => 'Mailchimp Email Subscribe',
+			'slug'      => 'mailchimp-for-wp',
 			'required'  => false,
 		),
 
