@@ -1552,20 +1552,15 @@ form.contact-form {
   font-size: 1.1em;
   font-style: italic; }
 
-form[id*="give-form"] .give-donation-amount .give-currency-symbol, form[id*="give-form"] #give-final-total-wrap .give-donation-total-label, form[id*="give-form"] #give-final-total-wrap .give-final-total-amount {
-  height: 55px;
-  line-height: 55px; }
-
-form[id*="give-form"] .give-donation-amount #give-amount {
-  height: 55px;
-  line-height: 50px; }
-
 #give-recurring-form .form-row input[type="text"], #give-recurring-form .form-row input[type="email"], #give-recurring-form .form-row input[type="password"], #give-recurring-form .form-row select, #give-recurring-form .form-row textarea, form.give-form .form-row input[type="text"], form.give-form .form-row input[type="email"], form.give-form .form-row input[type="password"], form.give-form .form-row select, form.give-form .form-row textarea, form[id*="give-form"] .form-row input[type="text"], form[id*="give-form"] .form-row input[type="email"], form[id*="give-form"] .form-row input[type="password"], form[id*="give-form"] .form-row select, form[id*="give-form"] .form-row textarea {
   background-color: white;
   border-color: #f5f5f5;
   box-shadow: none;
   color: #38474d;
   height: 3rem; }
+
+button.give-btn {
+  color: black; }
 
 /*--------------------------------------------------------------
 8.0 Infinite scroll
