@@ -192,7 +192,7 @@ function politics_scripts() {
 	 *
 	 * @link https://github.com/grappler/wp-standard-handles
 	 */
-	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '4.4.0', 'all' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '4.7.0', 'all' );
 	wp_enqueue_style( 'politics-style', get_stylesheet_uri(), array(), $politics['Version'], 'all' );
 
 	if ( get_theme_mod( 'politics-sticky-header') == '1' ){
