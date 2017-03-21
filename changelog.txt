@@ -1,4 +1,9 @@
 == Politics Changelog ==
+
+= 1.0.6 - March 20, 2017 =
+* Updated Font Awesome to 4.7
+
+
 = 1.0.5 - Oct 26, 2016 =
 * Fix for spacing in submenus
 

@@ -1,2 +1,6 @@
+1
+gulpfile.js
+node_modules/
+package.json
 *.DS_Store
 .sass-cache/
