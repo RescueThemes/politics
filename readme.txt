@@ -5,7 +5,7 @@ Tags: theme-options, red, blue, white, right-sidebar, responsive-layout, custom-
 
 Requires at least: 4.1
 Tested up to: 4.3
-Stable tag: 1.0.4
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,13 @@ You can customize the theme with the native WordPress Customize feature allowing
 You can find further documentation files at [docs.rescuethemes.com](http://docs.rescuethemes.com/collection/232-politics).
 
 == Changelog ==
+
+= 1.0.7 - April 5, 2017 =
+* Update readme
+
+= 1.0.6 - March 20, 2017 =
+* Updated Font Awesome to 4.7
+
 
 = 1.0.4 - Mar 29, 2016 =
 * Added Mailchimp for WP plugin support

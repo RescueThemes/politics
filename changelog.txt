@@ -1,5 +1,8 @@
 == Politics Changelog ==
 
+= 1.0.7 - April 5, 2017 =
+* Update readme
+
 = 1.0.6 - March 20, 2017 =
 * Updated Font Awesome to 4.7
 
