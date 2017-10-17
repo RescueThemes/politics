@@ -1,5 +1,8 @@
 == Politics Changelog ==
 
+= 1.0.8 - 2017-10-17 =
+* Tested to 4.8.2
+
 = 1.0.7 - April 5, 2017 =
 * Update readme
 
