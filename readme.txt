@@ -47,6 +47,9 @@ You can find further documentation files at [docs.rescuethemes.com](http://docs.
 
 == Changelog ==
 
+= 1.0.9 - 2018-5-7 =
+* Tested with support for 4.9.5
+
 = 1.0.8 - 2017-10-17 =
 * Tested to 4.8.2
 
