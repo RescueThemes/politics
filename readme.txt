@@ -4,8 +4,8 @@ Contributors: rescuethemes
 Tags: theme-options, red, blue, white, right-sidebar, responsive-layout, custom-colors, custom-menu, featured-images, full-width-template,  sticky-post, threaded-comments, translation-ready
 
 Requires at least: 4.1
-Tested up to: 4.9.7
-Stable tag: 1.0.10
+Tested up to: 5.4.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,10 @@ You can customize the theme with the native WordPress Customize feature allowing
 You can find further documentation files at [docs.rescuethemes.com](http://docs.rescuethemes.com/collection/232-politics).
 
 == Changelog ==
+
+
+= 1.1, 2020-07-07
+* Tested and support for WordPress 5.4.1
 
 = 1.0.10 - 2018-7-16 =
 * Tested and Support for WordPress 4.9.7
