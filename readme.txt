@@ -95,14 +95,6 @@ You can find further documentation files at [docs.rescuethemes.com](http://docs.
 
 == Credits ==
 
-* Unsplash https://unsplash.com/photos/pAzhTffP-Aw/, (c) Christopher Skor,
-[CC0](http://creativecommons.org/publicdomain/zero/1.0/)
-
-* Unsplash https://unsplash.com/photos/FmMivfgHCiM/, (c) Caleb George Morris, [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
-
-* Pixabay https://pixabay.com/en/obama-barack-obama-president-man-356133/, (c) Mike Brice,
-[CC0](http://creativecommons.org/publicdomain/zero/1.0/)
-
 * Underscores http://underscores.me, (C) 2012-2015 Automattic, Inc.,
 [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 
