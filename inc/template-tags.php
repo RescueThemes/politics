@@ -13,6 +13,7 @@ if ( ! function_exists( 'politics_comments' ) ) :
       $GLOBALS['comment'] = $comment;
       switch ( $comment->comment_type ) :
           case '' :
+          case 'comment':
       ?>
 
         <li <?php comment_class('clearfix'); ?> id="li-comment-<?php comment_ID() ?>">
